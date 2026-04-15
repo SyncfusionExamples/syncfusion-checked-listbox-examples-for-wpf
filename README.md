@@ -1,35 +1,26 @@
 # Syncfusion CheckedListBox Examples for WPF
 
-This repository contains the samples that demonstrate the functionalities of **Syncfusion WPF CheckedListBox** control, including **Grouping** and **Sorting** features.
+**Repository Description:** A collection of samples demonstrating the advanced features of the **Syncfusion WPF CheckedListBox** control, including grouping and sorting capabilities for modern WPF applications.
 
-## Samples in this Repository
-1. **CheckListBox Grouping**  
-   Demonstrates how to group items in a CheckedListBox based on a property (e.g., Category).  
-   [View Sample](https://github.com/SyncfusionExamples/syncfusion-checked-listbox-examples-for-wpf/tree/master/CheckListBox_Grouping)
+## Overview
+The **CheckedListBox** is a WPF control that enables multiple item selection using checkboxes. It supports data binding, grouping, sorting, and MVVM patterns for building complex list-based interfaces.
 
-2. **CheckListBox Sorting**  
-   Demonstrates how to sort items in a CheckedListBox based on a property (e.g., Name) in ascending order.  
-   [View Sample](https://github.com/SyncfusionExamples/syncfusion-checked-listbox-examples-for-wpf/tree/master/CheckListBox_Sorting)
+## Samples Included
 
----
+### CheckListBox Grouping
+Demonstrates organizing items into logical groups based on a property. Uses **CollectionViewSource** with `GroupDescriptions` to manage grouping.  
+[View Sample](https://github.com/SyncfusionExamples/syncfusion-checked-listbox-examples-for-wpf/tree/master/CheckListBox_Grouping)
 
-## About Syncfusion CheckedListBox
-The **CheckedListBox** control in WPF is an advanced list box that allows users to select multiple items using checkboxes. It supports data binding, grouping, sorting, and MVVM pattern for building modern WPF applications.
-
-### Grouping
-Grouping organizes items into logical groups based on a property, such as Category. This improves readability and user experience when dealing with large datasets. The control uses **CollectionViewSource** internally to group items, and you can define `GroupDescriptions` to specify grouping criteria.
-
-### Sorting
-Sorting arranges items in ascending or descending order based on a property, such as Name. This feature helps users quickly locate items. Sorting is achieved by adding `SortDescriptions` to the underlying collection view, which updates the display order dynamically.
+### CheckListBox Sorting  
+Shows how to sort items dynamically by adding `SortDescriptions` to the collection view.  
+[View Sample](https://github.com/SyncfusionExamples/syncfusion-checked-listbox-examples-for-wpf/tree/master/CheckListBox_Sorting)
 
 ## Key Features
-- **Data Binding**: Bind items and selected items to ViewModel properties.
-- **MVVM Support**: Fully compatible with MVVM architecture.
-- **Customization**: Supports styling and templating for a modern UI.
+- **Data Binding**: Complete support for MVVM-based binding
+- **Grouping**: Organize items into logical groups
+- **Sorting**: Dynamic sorting based on properties
+- **Customization**: Styling and templating support
 
 ## Documentation
-- [CheckedListBox Grouping](https://help.syncfusion.com/wpf/checkedlistbox/grouping)  
-- [CheckedListBox Sorting](https://help.syncfusion.com/wpf/checkedlistbox/sorting)
-
----
-
+- [Grouping Guide](https://help.syncfusion.com/wpf/checkedlistbox/grouping)  
+- [Sorting Guide](https://help.syncfusion.com/wpf/checkedlistbox/sorting)
